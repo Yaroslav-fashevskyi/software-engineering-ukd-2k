@@ -1,0 +1,30 @@
+name: LeaveAbuse CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    name: tests
+    runs-on: ubuntu-latest
+    container:
+      image: python:3.12-bookworm
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Check Python environment
+        run: python --version
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-dev.txt
+      - name: Compile Python modules
+        run: python -m compileall -q app
+      - name: Run automatic tests
+        run: python -m pytest -v
