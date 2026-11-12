@@ -1,0 +1,11 @@
+--- ВНУТРІШНІЙ БАНК ---
+[InternalBank] Списання 3500.00 грн: UA-DEMO-ACCOUNT
+Оплата пройшла (демо)
+
+--- GLOBALPAY ---
+[GlobalPay SDK] customer@example.com: 350000 коп., UAH
+Оплата пройшла (демо)
+
+--- CRYPTOPAY ---
+[CryptoPay DEMO] Створено тестовий інвойс demo-wallet: 3500.00 грн
+Оплата пройшла (демо)

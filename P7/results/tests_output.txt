@@ -1,0 +1,14 @@
+[InternalBank] Списання 10.00 грн: demo
+Оплата пройшла (демо)
+[GlobalPay SDK] demo@example.com: 1001 коп., UAH
+Оплата пройшла (демо)
+[CryptoPay DEMO] Створено тестовий інвойс wallet: 10.00 грн
+Оплата пройшла (демо)
+test_gateways (test_patterns.TestAdapter.test_gateways) ... ok
+test_formats (test_patterns.TestFactoryMethod.test_formats) ... ok
+test_tariffs_and_switch (test_patterns.TestStrategy.test_tariffs_and_switch) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
